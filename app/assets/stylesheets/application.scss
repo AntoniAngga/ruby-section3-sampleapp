@@ -1,0 +1,94 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$light-gray-color: #777;
+
+/* universal */
+.icon {
+  height: 45px;
+}
+
+.navbar-brand {
+  padding: 3px 2px 0px 4px;
+}
+
+
+.content {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+// Nested CSS;
+.center { 
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  };
+};
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $light-gray-color;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+img {
+  display: none;
+};
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: $light-gray-color;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
